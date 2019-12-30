@@ -9,7 +9,7 @@ import SideMenu from "./components/SideMenu";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
-import Contactdemo from "./pages/Contactdemo";
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contactdemo" component={Contactdemo} />
        
       </main>
     </div>

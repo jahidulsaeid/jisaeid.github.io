@@ -52,11 +52,7 @@ const SideMenu = () => {
                 <span>Contact</span>
               </Link>
             </li>
-            <li>
-              <Link to="/contactdemo">
-                <span>Contact Demo</span>
-              </Link>
-            </li>
+       
           </ul>
           <p className="mi-header-copyright">© 2019 JAHIDUL ISLAM</p>
         </div>

@@ -1,5 +1,7 @@
 import React from "react";
 
+import NetlifyForm from "react-netlify-form";
+
 const Contact = () => {
   return (
     <>
@@ -13,46 +15,75 @@ const Contact = () => {
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
-                <form id="mi-contactform" name="contact" netlify netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="contact" />
-                  <div className="mi-form-field">
-                    <label htmlFor="contact-form-name">Enter your name*</label>
-                    <input type="text" name="name" id="contact-form-name" />
-                  </div>
-                  <div className="mi-form-field">
-                    <label htmlFor="contact-form-email">
-                      Enter your email*
-                    </label>
-                    <input type="text" name="email" id="contact-form-email" />
-                  </div>
-                  <div className="mi-form-field">
-                    <label htmlFor="contact-form-subject">
-                      Enter your subject*
-                    </label>
-                    <input
-                      type="text"
-                      name="subject"
-                      id="contact-form-subject"
-                    />
-                  </div>
-                  <div className="mi-form-field">
-                    <label htmlFor="contact-form-message">
-                      Enter your Message*
-                    </label>
-                    <textarea
-                      name="message"
-                      id="contact-form-message"
-                      cols={30}
-                      rows={6}
-                    />
-                  </div>
-          
-                  <div className="mi-form-field">
-                    <button className="mi-button" type="submit">
-                      Send Mail
-                    </button>
-                  </div>
-                </form>
+
+                <NetlifyForm name="Contact Form">
+                  {({ loading, error, success }) => (
+                    <div>
+                      {loading && <div>Loading...</div>}
+                      {error && (
+                        <div>
+                          Your information was not sent. Please try again later.
+                        </div>
+                      )}
+                      {success && <div>Thank you for contacting us!</div>}
+                      {!loading && !success && (
+                        <div>
+                          {/* <form id="mi-contactform" name="contact" netlify netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact" /> */}
+                          <div className="mi-form-field">
+                            <label htmlFor="contact-form-name">
+                              Enter your name*
+                            </label>
+                            <input
+                              type="text"
+                              name="name"
+                              id="contact-form-name"
+                            />
+                          </div>
+                          <div className="mi-form-field">
+                            <label htmlFor="contact-form-email">
+                              Enter your email*
+                            </label>
+                            <input
+                              type="text"
+                              name="email"
+                              id="contact-form-email"
+                            />
+                          </div>
+                          <div className="mi-form-field">
+                            <label htmlFor="contact-form-subject">
+                              Enter your subject*
+                            </label>
+                            <input
+                              type="text"
+                              name="subject"
+                              id="contact-form-subject"
+                            />
+                          </div>
+                          <div className="mi-form-field">
+                            <label htmlFor="contact-form-message">
+                              Enter your Message*
+                            </label>
+                            <textarea
+                              name="message"
+                              id="contact-form-message"
+                              cols={30}
+                              rows={6}
+                            />
+                          </div>
+
+                          <div className="mi-form-field">
+                            <button className="mi-button" type="submit">
+                              Send Mail
+                            </button>
+                          </div>
+                          {/* </form> */}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </NetlifyForm>
+
                 <div className="form-message alert" />
               </div>
             </div>
