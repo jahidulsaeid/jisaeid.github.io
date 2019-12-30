@@ -45,9 +45,7 @@ const Contact = () => {
                       rows={6}
                     />
                   </div>
-                  <div className="mi-form-field">
-                    <div data-netlify-recaptcha="true"></div>
-                  </div>
+          
                   <div className="mi-form-field">
                     <button className="mi-button" type="submit">
                       Send Mail
