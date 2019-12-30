@@ -16,7 +16,7 @@ const Contact = () => {
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
 
-                {/* <NetlifyForm name="Contact Form">
+                <NetlifyForm name="Contact Form">
                   {({ loading, error, success }) => (
                     <div>
                       {loading && <div>Loading...</div>}
@@ -71,38 +71,17 @@ const Contact = () => {
                           </div>
 
                           <div className="mi-form-field">
-                         
-                            <input type="submit" className="mi-button" value="Submit"/>
+                            <input
+                              type="submit"
+                              className="mi-button"
+                              value="Submit"
+                            />
                           </div>
                         </div>
                       )}
                     </div>
                   )}
-                </NetlifyForm> */}
-
-                <form name="contact" method="post">
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p>
-                    <label>
-                      Your Name: <input type="text" name="name" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Your Email: <input type="email" name="email" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Message: <textarea name="message"></textarea>
-                    </label>
-                  </p>
-                  <p>
-                    <button type="submit">Send</button>
-                  </p>
-                </form>
-
-
+                </NetlifyForm>
 
                 <div className="form-message alert" />
               </div>
