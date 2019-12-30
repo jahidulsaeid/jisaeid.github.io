@@ -6,7 +6,7 @@ import NetlifyForm from 'react-netlify-form'
 class Contactdemo extends Component {
   render() {
     return (
-      NetlifyForm name='Contact Form'>
+      <NetlifyForm name='Contact Form'>
       {({ loading, error, success }) => (
         <div>
           {loading &&
