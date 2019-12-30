@@ -1,6 +1,6 @@
 import React from "react";
 
-import NetlifyForm from "react-netlify-form";
+// import NetlifyForm from "react-netlify-form";
 
 const Contact = () => {
   return (
@@ -16,93 +16,51 @@ const Contact = () => {
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
 
-                <div  name="contact" method="post">
-                  {({ loading, error, success }) => (
-                    <div>
-                      {loading && <div>Loading...</div>}
-                      {error && (
-                        <div>
-                          Your information was not sent. Please try again later.
-                        </div>
-                      )}
-                      {success && <div>Thank you for contacting us!</div>}
-                      {!loading && !success && (
-                        <div>
-                          <div className="mi-form-field">
-                            <label htmlFor="contact-form-name">
-                              Enter your name*
-                            </label>
-                            <input
-                              type="text"
-                              name="name"
-                              id="contact-form-name"
-                            />
-                          </div>
-                          <div className="mi-form-field">
-                            <label htmlFor="contact-form-email">
-                              Enter your email*
-                            </label>
-                            <input
-                              type="text"
-                              name="email"
-                              id="contact-form-email"
-                            />
-                          </div>
-                          <div className="mi-form-field">
-                            <label htmlFor="contact-form-subject">
-                              Enter your subject*
-                            </label>
-                            <input
-                              type="text"
-                              name="subject"
-                              id="contact-form-subject"
-                            />
-                          </div>
-                          <div className="mi-form-field">
-                            <label htmlFor="contact-form-message">
-                              Enter your Message*
-                            </label>
-                            <textarea
-                              name="message"
-                              id="contact-form-message"
-                              cols={30}
-                              rows={6}
-                            />
-                          </div>
-
-                          <div className="mi-form-field">
-                         
-                            <input type="submit" className="mi-button" value="Submit"/>
-                          </div>
-                        </div>
-                      )}
+                <form name="contact" method="post">
+                  <div>
+                    <div className="mi-form-field">
+                      <label htmlFor="contact-form-name">
+                        Enter your name*
+                      </label>
+                      <input type="text" name="name" id="contact-form-name" />
                     </div>
-                  )}
-                </div>
+                    <div className="mi-form-field">
+                      <label htmlFor="contact-form-email">
+                        Enter your email*
+                      </label>
+                      <input type="text" name="email" id="contact-form-email" />
+                    </div>
+                    <div className="mi-form-field">
+                      <label htmlFor="contact-form-subject">
+                        Enter your subject*
+                      </label>
+                      <input
+                        type="text"
+                        name="subject"
+                        id="contact-form-subject"
+                      />
+                    </div>
+                    <div className="mi-form-field">
+                      <label htmlFor="contact-form-message">
+                        Enter your Message*
+                      </label>
+                      <textarea
+                        name="message"
+                        id="contact-form-message"
+                        cols={30}
+                        rows={6}
+                      />
+                    </div>
 
-                {/* <form name="contact" method="post">
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p>
-                    <label>
-                      Your Name: <input type="text" name="name" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Your Email: <input type="email" name="email" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Message: <textarea name="message"></textarea>
-                    </label>
-                  </p>
-                  <p>
-                    <button type="submit">Send</button>
-                  </p>
-                </form> */}
-
-
+                    <div className="mi-form-field">
+                      <input
+                        type="submit"
+                        className="mi-button"
+                        value="Submit"
+                      />
+                    </div>
+                  </div>
+                </form>
 
                 <div className="form-message alert" />
               </div>
