@@ -17,6 +17,7 @@ const Contact = () => {
                 <h4>Get In Touch</h4>
 
                 <form name="contact" method="post">
+                <input type="hidden" name="form-name" value="contact" />
                   <div>
                     <div className="mi-form-field">
                       <label htmlFor="contact-form-name">
@@ -61,6 +62,28 @@ const Contact = () => {
                     </div>
                   </div>
                 </form>
+
+                {/* <form name="contact" method="post">
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p>
+                    <label>
+                      Your Name: <input type="text" name="name" />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      Your Email: <input type="email" name="email" />
+                    </label>
+                  </p>
+                  <p>
+                    <label>
+                      Message: <textarea name="message"></textarea>
+                    </label>
+                  </p>
+                  <p>
+                    <button type="submit">Send</button>
+                  </p>
+                </form> */}
 
                 <div className="form-message alert" />
               </div>
