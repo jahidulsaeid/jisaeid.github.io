@@ -80,14 +80,8 @@ const Contact = () => {
                   )}
                 </NetlifyForm> */}
 
-                <form
-                  name="contact"
-                  method="POST"
-                  class="contact__form"
-                  netlify-honeypot="bot-field"
-                  data-netlify="true"
-                >
-                  <input type="hidden" name="form-name" value="Contact" />
+                <form name="contact" method="post">
+                  <input type="hidden" name="form-name" value="contact" />
                   <p>
                     <label>
                       Your Name: <input type="text" name="name" />
@@ -100,15 +94,6 @@ const Contact = () => {
                   </p>
                   <p>
                     <label>
-                      Your Role:{" "}
-                      <select name="role[]" multiple>
-                        <option value="leader">Leader</option>
-                        <option value="follower">Follower</option>
-                      </select>
-                    </label>
-                  </p>
-                  <p>
-                    <label>
                       Message: <textarea name="message"></textarea>
                     </label>
                   </p>
@@ -116,6 +101,8 @@ const Contact = () => {
                     <button type="submit">Send</button>
                   </p>
                 </form>
+
+
 
                 <div className="form-message alert" />
               </div>
