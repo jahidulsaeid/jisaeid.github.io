@@ -46,6 +46,9 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mi-form-field">
+                    <div data-netlify-recaptcha="true"></div>
+                  </div>
+                  <div className="mi-form-field">
                     <button className="mi-button" type="submit">
                       Send Mail
                     </button>
@@ -106,7 +109,10 @@ const Contact = () => {
                   </span>
                   <div className="mi-contact-infoblock-content">
                     <h6>Address</h6>
-                    <p>Dhaka Housing, North Adabor, Mohammadpur, Dhaka, Bangladesh</p>
+                    <p>
+                      Dhaka Housing, North Adabor, Mohammadpur, Dhaka,
+                      Bangladesh
+                    </p>
                   </div>
                 </div>
               </div>
