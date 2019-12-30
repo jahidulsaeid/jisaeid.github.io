@@ -1,33 +1,33 @@
 import React, { Component } from "react";
 
+import NetlifyForm from 'react-netlify-form'
+
+
 class Contactdemo extends Component {
   render() {
     return (
-      <form
-        name="contact"
-        method="post"
-        action="/success"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="bot-field" />
+      NetlifyForm name='Contact Form'>
+      {({ loading, error, success }) => (
         <div>
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" />
+          {loading &&
+            <div>Loading...</div>
+          }
+          {error &&
+            <div>Your information was not sent. Please try again later.</div>
+          }
+          {success &&
+            <div>Thank you for contacting us!</div>
+          }
+          {!loading && !success &&
+            <div>
+              <input type='text' name='Name' required />
+              <textarea name='Message' required />
+              <button>Submit</button>
+            </div>
+          }
         </div>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input type="text" name="email" id="email" />
-        </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" rows="6" required />
-        </div>
-        <div>
-          <input type="submit" value="Drop a line" />
-          <input type="reset" value="Eraser" />
-        </div>
-      </form>
+      )}
+    </NetlifyForm>
     );
   }
 }
