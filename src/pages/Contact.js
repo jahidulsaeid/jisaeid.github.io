@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
-                <form id="mi-contactform" method="POST" data-netlify="true">
+                <form id="mi-contactform" name="contact" method="POST" data-netlify="true">
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-name">Enter your name*</label>
                     <input type="text" name="name" id="contact-form-name" />
