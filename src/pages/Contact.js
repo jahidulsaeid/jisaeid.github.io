@@ -28,8 +28,6 @@ const Contact = () => {
                       {success && <div>Thank you for contacting us!</div>}
                       {!loading && !success && (
                         <div>
-                          {/* <form id="mi-contactform" name="contact" netlify netlify-honeypot="bot-field">
-                <input type="hidden" name="form-name" value="contact" /> */}
                           <div className="mi-form-field">
                             <label htmlFor="contact-form-name">
                               Enter your name*
@@ -73,11 +71,11 @@ const Contact = () => {
                           </div>
 
                           <div className="mi-form-field">
-                            <button className="mi-button" type="submit">
+                            {/* <button className="mi-button" type="submit">
                               Send Mail
-                            </button>
+                            </button> */}
+                            <input type="submit" className="mi-button" value="Submit"/>
                           </div>
-                          {/* </form> */}
                         </div>
                       )}
                     </div>
@@ -102,9 +100,6 @@ const Contact = () => {
                     <p>
                       <a href="%2b012-3456-7891.html">+8801829738891</a>
                     </p>
-                    {/* <p>
-                      <a href="%2b012-3456-7892.html">+8801605079938</a>
-                    </p> */}
                   </div>
                 </div>
                 <div className="mi-contact-infoblock">
@@ -122,11 +117,6 @@ const Contact = () => {
                         jahidul.saeid@gmail.com
                       </a>
                     </p>
-                    {/* <p>
-                      <a href="mailto:info.sitename@example.com">
-                        info.sitename@example.com
-                      </a>
-                    </p> */}
                   </div>
                 </div>
                 <div className="mi-contact-infoblock">
