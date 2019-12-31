@@ -1,5 +1,8 @@
 import React from "react";
 
+import { GoBook } from "react-icons/go";
+import { Line, Circle } from "rc-progress";
+
 const Resume = () => {
   return (
     <div>
@@ -17,10 +20,15 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">95%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                      <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
+                <div></div>
               </div>
               <div className="col-lg-6 col-12 mt-30">
                 <div className="mi-progress">
@@ -28,7 +36,11 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">90%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                    <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
@@ -39,7 +51,11 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">70%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                    <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
@@ -50,7 +66,11 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">85%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                    <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
@@ -61,7 +81,11 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">80%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                    <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
@@ -72,7 +96,11 @@ const Resume = () => {
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">65%</div>
                     <div className="mi-progress-container">
-                      <span className="mi-progress-active" />
+                    <Line
+                        percent="90"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
                     </div>
                   </div>
                 </div>
@@ -87,13 +115,13 @@ const Resume = () => {
             <h2>Resume</h2>
             <span>Resume</span>
           </div>
-          <div className="mi-smalltitle">
+          {/* <div className="mi-smalltitle">
             <span className="mi-smalltitle-icon">
               <i className="lni-briefcase size-md " />
             </span>
             <h4>Working Experience</h4>
-          </div>
-          <div className="mi-resume-wrapper">
+          </div> */}
+          {/* <div className="mi-resume-wrapper">
             <div className="mi-resume mt-30">
               <div className="mi-resume-summary">
                 <h6 className="mi-resume-year">2018 - Present</h6>
@@ -139,13 +167,13 @@ const Resume = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="mt-30" />
           <div className="mi-smalltitle">
             <span className="mi-smalltitle-icon">
-              <i className="lni-book size-md " />
+              <GoBook style={{ fontSize: "40px" }} />
             </span>
-            <h4>Educational Qualifications</h4>
+            <h4 style={{ marginBottom: "0px" }}>Educational Qualifications</h4>
           </div>
           <div className="mi-resume-wrapper">
             <div className="mi-resume mt-30">
@@ -153,7 +181,7 @@ const Resume = () => {
                 <h6 className="mi-resume-year">2018 - 2019</h6>
               </div>
               <div className="mi-resume-details">
-                <h5>Master of Science</h5>
+                <h5>Bangladesh Universitynpm install react-particles-js</h5>
                 <h6 className="mi-resume-company">Abc University</h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -168,7 +196,7 @@ const Resume = () => {
                 <h6 className="mi-resume-year">2016 - 2018</h6>
               </div>
               <div className="mi-resume-details">
-                <h5>Bachelor of Science</h5>
+                <h5>Dr. Khandaker Mosharraf Hossain College</h5>
                 <h6 className="mi-resume-company">Abc University</h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -183,7 +211,7 @@ const Resume = () => {
                 <h6 className="mi-resume-year">2015 - 2016</h6>
               </div>
               <div className="mi-resume-details">
-                <h5>Higher Schoold Graduation</h5>
+                <h5>Machhimpur R.R. Institution</h5>
                 <h6 className="mi-resume-company">Abc College</h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.

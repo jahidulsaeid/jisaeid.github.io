@@ -17,13 +17,13 @@ const SideMenu = () => {
         </button>
         <div className="mi-header-inner">
           <div className="mi-header-image">
-            <a href="index.html">
+            <Link to="/">
               <img src={menuimage} alt="brandimage" />
-            </a>
+            </Link>
           </div>
           <ul className="mi-header-menu">
             <li>
-              <Link to="/" className="active">
+              <Link to="/">
                 <span>Home</span>
               </Link>
             </li>

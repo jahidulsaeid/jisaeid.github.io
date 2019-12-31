@@ -2,6 +2,9 @@ import React from "react";
 
 import NetlifyForm from "react-netlify-form";
 
+
+import { FiPhone, FiMail, FiMapPin} from "react-icons/fi";
+
 const Contact = () => {
   return (
     <>
@@ -14,9 +17,9 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
-                <h4>Get In Touch</h4>
+                {/* <h6>Get In Touch</h6> */}
 
-                <NetlifyForm  name="contact" method="post">
+                <NetlifyForm name="contact" method="post">
                   {({ loading, error, success }) => (
                     <div>
                       {loading && <div>Loading...</div>}
@@ -66,42 +69,22 @@ const Contact = () => {
                               name="message"
                               id="contact-form-message"
                               cols={30}
-                              rows={6}
+                              rows={3}
                             />
                           </div>
 
                           <div className="mi-form-field">
-                         
-                            <input type="submit" className="mi-button" value="Submit"/>
+                            <input
+                              type="submit"
+                              className="mi-button"
+                              value="Submit"
+                            />
                           </div>
                         </div>
                       )}
                     </div>
                   )}
                 </NetlifyForm>
-
-                {/* <form name="contact" method="post">
-                  <input type="hidden" name="form-name" value="contact" />
-                  <p>
-                    <label>
-                      Your Name: <input type="text" name="name" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Your Email: <input type="email" name="email" />
-                    </label>
-                  </p>
-                  <p>
-                    <label>
-                      Message: <textarea name="message"></textarea>
-                    </label>
-                  </p>
-                  <p>
-                    <button type="submit">Send</button>
-                  </p>
-                </form> */}
-
 
 
                 <div className="form-message alert" />
@@ -111,11 +94,13 @@ const Contact = () => {
               <div className="mi-contact-info">
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    <img
-                      src="assets/images/icons/phone.svg"
+                    {/* <img
+                      src={PhoneIcon}
                       alt="phone"
                       className="mi-svgimage"
                     />
+                    */}
+                    <FiPhone className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">
                     <h6>Phone</h6>
@@ -126,11 +111,12 @@ const Contact = () => {
                 </div>
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    <img
+                    {/* <img
                       src="assets/images/icons/mail.svg"
                       alt="mail"
                       className="mi-svgimage"
-                    />
+                    /> */}
+                    <FiMail className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">
                     <h6>Email</h6>
@@ -143,11 +129,12 @@ const Contact = () => {
                 </div>
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    <img
+                    {/* <img
                       src="assets/images/icons/map-pin.svg"
                       alt="map"
                       className="mi-svgimage"
-                    />
+                    /> */}
+                    <FiMapPin className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">
                     <h6>Address</h6>
