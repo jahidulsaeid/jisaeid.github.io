@@ -1,29 +1,14 @@
 import React, { Component } from "react";
 import image from "../images/portfolio-image-6.jpg";
-
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import viewin from "../images/view.png";
 import { FiLink, FiZoomIn } from "react-icons/fi";
-// import PortfolioItem from "../components/PortfolioItem/PortfolioItem";
+import Gallery from "lightbox-alex-react";
 
-const images = [
-  "//placekitten.com/1500/500",
-  "//placekitten.com/4000/3000",
-  "//placekitten.com/800/1200",
-  "//placekitten.com/1500/1500"
-];
+const pictures = [image];
+const zoomin = [viewin];
 
 class Portfolio extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      photoIndex: 0,
-      isOpen: false
-    };
-  }
   render() {
-    const { photoIndex, isOpen } = this.state;
     return (
       <>
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
@@ -33,11 +18,12 @@ class Portfolio extends Component {
               <span>Portfolios</span>
             </div>
             <div className="row mt-30-reverse">
+              {/* Start */}
               <div className="col-lg-4 col-md-6 col-12 mt-30">
                 <div className="mi-portfolio mi-portfolio-visible">
                   <div className="mi-portfolio-image">
-                    <img src={image} alt="T-shirt Mockup" />
-
+                    {/* <Gallery files={pictures} thumbnails={pictures} /> */}
+                    <img src={image} alt="Coffee Mug" />
                     <ul>
                       <li>
                         <a target="_blank" href="https://dribbble.com/">
@@ -45,39 +31,7 @@ class Portfolio extends Component {
                         </a>
                       </li>
                       <li>
-                        <button
-                          type="button"
-                          onClick={() => this.setState({ isOpen: true })}
-                        >
-                          <FiZoomIn />
-                        </button>
-
-                        {isOpen && (
-                          <Lightbox
-                            mainSrc={images[photoIndex]}
-                            nextSrc={images[(photoIndex + 1) % images.length]}
-                            prevSrc={
-                              images[
-                                (photoIndex + images.length - 1) % images.length
-                              ]
-                            }
-                            onCloseRequest={() =>
-                              this.setState({ isOpen: false })
-                            }
-                            onMovePrevRequest={() =>
-                              this.setState({
-                                photoIndex:
-                                  (photoIndex + images.length - 1) %
-                                  images.length
-                              })
-                            }
-                            onMoveNextRequest={() =>
-                              this.setState({
-                                photoIndex: (photoIndex + 1) % images.length
-                              })
-                            }
-                          />
-                        )}
+                        <Gallery files={pictures} thumbnails={zoomin} />
                       </li>
                     </ul>
                   </div>
@@ -89,6 +43,7 @@ class Portfolio extends Component {
                   <h6>A beautiful t-shirt mockup.</h6>
                 </div>
               </div>
+              {/* End */}
               <div className="col-lg-4 col-md-6 col-12 mt-30">
                 <div className="mi-portfolio mi-portfolio-visible">
                   <div className="mi-portfolio-image">

@@ -1,7 +1,19 @@
 import React, { Component } from 'react'
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css"
-const images = [
+const portfolio1 = [
+  "//placekitten.com/1500/500",
+  "//placekitten.com/4000/3000",
+  "//placekitten.com/800/1200",
+  "//placekitten.com/1500/1500"
+];
+const portfolio2 = [
+  "//placekitten.com/1500/500",
+  "//placekitten.com/4000/3000",
+  "//placekitten.com/800/1200",
+  "//placekitten.com/1500/1500"
+];
+const portfolio3 = [
   "//placekitten.com/1500/500",
   "//placekitten.com/4000/3000",
   "//placekitten.com/800/1200",
@@ -30,22 +42,41 @@ class PortfolioItem extends Component {
 
         {isOpen && (
           <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            mainSrc={portfolio1[photoIndex]}
+            nextSrc={portfolio1[(photoIndex + 1) % portfolio1.length]}
+            prevSrc={portfolio1[(photoIndex + portfolio1.length - 1) % portfolio1.length]}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMovePrevRequest={() =>
               this.setState({
-                photoIndex: (photoIndex + images.length - 1) % images.length
+                photoIndex: (photoIndex + portfolio1.length - 1) % portfolio1.length
               })
             }
             onMoveNextRequest={() =>
               this.setState({
-                photoIndex: (photoIndex + 1) % images.length
+                photoIndex: (photoIndex + 1) % portfolio1.length
               })
             }
           />
         )}
+        {isOpen && (
+          <Lightbox
+            mainSrc={portfolio2[photoIndex]}
+            nextSrc={portfolio2[(photoIndex + 1) % portfolio2.length]}
+            prevSrc={portfolio2[(photoIndex + portfolio2.length - 1) % portfolio2.length]}
+            onCloseRequest={() => this.setState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + portfolio2.length - 1) % portfolio2.length
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % portfolio1.length
+              })
+            }
+          />
+        )}
+
       </div>
     );
   }
