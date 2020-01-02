@@ -2,8 +2,10 @@ import React from "react";
 
 import AboutImage from "../images/jisaeid.jpg";
 import { IoIosColorPalette } from "react-icons/io";
-import { FiCode } from "react-icons/fi";
+import { FiCode, FiShoppingBag } from "react-icons/fi";
 import { AiOutlineMobile } from "react-icons/ai";
+import { FaWordpress } from "react-icons/fa";
+import { IoMdAnalytics } from "react-icons/io";
 
 const About = () => {
   return (
@@ -46,7 +48,7 @@ const About = () => {
                     <b>Nationality</b> Bangladesh
                   </li>
                   <li>
-                    <b>Languages</b> English, Bangla,Hindi
+                    <b>Languages</b> English, Bangla
                   </li>
                   <li>
                     <b>Address</b>Dhaka Housing, North Adabor, Mohammadpur,
@@ -76,8 +78,9 @@ const About = () => {
                   </span>
                   <h5>Web Design</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
+                    I like to keep it simple. My goals are to focus on
+                    typography, content and conveying the message that you want
+                    to send.
                   </p>
                 </div>
               </div>
@@ -88,8 +91,20 @@ const About = () => {
                   </span>
                   <h5>Web Development</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
+                    I'm a developer, so I know how to create your website to run
+                    across devices using the latest technologies available.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-12 mt-30">
+                <div className="mi-service">
+                  <span className="mi-service-icon">
+                    <FaWordpress />
+                  </span>
+                  <h5>Content Management</h5>
+                  <p>
+                    Custom WordPress theme and plugin development. Easily update
+                    content without knowing how to code.
                   </p>
                 </div>
               </div>
@@ -98,10 +113,34 @@ const About = () => {
                   <span className="mi-service-icon">
                     <AiOutlineMobile />
                   </span>
-                  <h5>Mobile Application</h5>
+                  <h5>Mobile-friendly</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem tenetur ratione quod.
+                    A responsive design makes your website accessible to all
+                    users, regardless of their device.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-12 mt-30">
+                <div className="mi-service">
+                  <span className="mi-service-icon">
+                    <IoMdAnalytics />
+                  </span>
+                  <h5>Analytics</h5>
+                  <p>
+                    Get insights into who is browsing your site so that you can
+                    make smarter business decisions.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-12 mt-30">
+                <div className="mi-service">
+                  <span className="mi-service-icon">
+                    <FiShoppingBag />
+                  </span>
+                  <h5>eCommerce</h5>
+                  <p>
+                    Integration of eCommerce platforms, payment gateways, and more using woocommerce.
                   </p>
                 </div>
               </div>

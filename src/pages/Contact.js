@@ -24,11 +24,11 @@ const Contact = () => {
                     <div>
                       {loading && <div>Loading...</div>}
                       {error && (
-                        <div>
+                        <div style={{color:'#eb3434'}}>
                           Your information was not sent. Please try again later.
                         </div>
                       )}
-                      {success && <div>Thank you for contacting us!</div>}
+                      {success && <div style={{color: '#3aeb34'}}>Thank you for contacting us!</div>}
                       {!loading && !success && (
                         <div>
                           <div className="mi-form-field">
@@ -94,28 +94,19 @@ const Contact = () => {
               <div className="mi-contact-info">
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    {/* <img
-                      src={PhoneIcon}
-                      alt="phone"
-                      className="mi-svgimage"
-                    />
-                    */}
+              
                     <FiPhone className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">
                     <h6>Phone</h6>
                     <p>
-                      <a href="%2b012-3456-7891.html">+8801829738891</a>
+                      <a href="tel:+8801829738891">+8801829738891</a>
                     </p>
                   </div>
                 </div>
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    {/* <img
-                      src="assets/images/icons/mail.svg"
-                      alt="mail"
-                      className="mi-svgimage"
-                    /> */}
+              
                     <FiMail className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">
@@ -129,11 +120,7 @@ const Contact = () => {
                 </div>
                 <div className="mi-contact-infoblock">
                   <span className="mi-contact-infoblock-icon">
-                    {/* <img
-                      src="assets/images/icons/map-pin.svg"
-                      alt="map"
-                      className="mi-svgimage"
-                    /> */}
+              
                     <FiMapPin className="mi-svgimage"/>
                   </span>
                   <div className="mi-contact-infoblock-content">

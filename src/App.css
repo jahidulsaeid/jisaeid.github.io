@@ -2089,7 +2089,7 @@ input[type="radio"]:checked ~ label::before {
   width: 15px;
   background: rgba(3, 127, 253, 0.6);
 }
-.mi-about-image img {
+/* .mi-about-image img {
   width: 100%;
 }
 .mi-about-image-icon {
@@ -2122,7 +2122,7 @@ input[type="radio"]:checked ~ label::before {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-}
+} */
 .mi-about-content h3 {
   font-weight: 600;
   margin-top: -8px;
