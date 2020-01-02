@@ -75,7 +75,7 @@ const Resume = () => {
                   </div>
                 </div>
               </div>
-           
+
               <div className="col-lg-6 col-12 mt-30">
                 <div className="mi-progress">
                   <h6 className="mi-progress-title">Wordpress</h6>
@@ -116,59 +116,6 @@ const Resume = () => {
             <h2>Resume</h2>
             <span>Resume</span>
           </div>
-          {/* <div className="mi-smalltitle">
-            <span className="mi-smalltitle-icon">
-              <i className="lni-briefcase size-md " />
-            </span>
-            <h4>Working Experience</h4>
-          </div> */}
-          {/* <div className="mi-resume-wrapper">
-            <div className="mi-resume mt-30">
-              <div className="mi-resume-summary">
-                <h6 className="mi-resume-year">2018 - Present</h6>
-              </div>
-              <div className="mi-resume-details">
-                <h5>Frontend Web Developer</h5>
-                <h6 className="mi-resume-company">Abc Company</h6>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Quas, magni mollitia, aspernatur consequatur accusamus vero
-                  eum facere exercitationem velit suscipit ipsam placeat libero.
-                  Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                </p>
-              </div>
-            </div>
-            <div className="mi-resume mt-30">
-              <div className="mi-resume-summary">
-                <h6 className="mi-resume-year">2016 - 2018</h6>
-              </div>
-              <div className="mi-resume-details">
-                <h5>Frontend Web Developer</h5>
-                <h6 className="mi-resume-company">CBA Company</h6>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Quas, magni mollitia, aspernatur consequatur accusamus vero
-                  eum facere exercitationem velit suscipit ipsam placeat libero.
-                  Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                </p>
-              </div>
-            </div>
-            <div className="mi-resume mt-30">
-              <div className="mi-resume-summary">
-                <h6 className="mi-resume-year">2014 - 1016</h6>
-              </div>
-              <div className="mi-resume-details">
-                <h5>UI/UX Designer</h5>
-                <h6 className="mi-resume-company">Example Company</h6>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Quas, magni mollitia, aspernatur consequatur accusamus vero
-                  eum facere exercitationem velit suscipit ipsam placeat libero.
-                  Deleniti exercitationem nostrum quasi. Molestiae, vel porro.
-                </p>
-              </div>
-            </div>
-          </div> */}
           <div className="mt-30" />
           <div className="mi-smalltitle">
             <span className="mi-smalltitle-icon">
@@ -207,9 +154,9 @@ const Resume = () => {
 
                 <p>
                   Dr.khandaker Mosharraf Hossain College is an academic
-                  institute located at Daudkandi Comilla.It offers
-                  higher-secondary education. It was established on 03 May,
-                  2002.
+                  institute located at Daudkandi, Cumilla, Bangladesh.It
+                  offers higher-secondary education. It was established on 03
+                  May, 2002.
                 </p>
               </div>
             </div>
@@ -224,9 +171,9 @@ const Resume = () => {
                 </h6>
                 <p>
                   Machhimpur R.R Institution is an well known Secondary School
-                  situated at Machhimpur, Titas Upazila, Cumilla District,
+                  situated at Machhimpur, Titas Upazila, Cumilla,
                   Bangladesh. It is one of the oldest educational institution in
-                  Cumilla, Bangladesh established in 1930.
+                  Cumilla. It was established on 1930.
                 </p>
               </div>
             </div>
