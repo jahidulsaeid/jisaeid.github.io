@@ -1,7 +1,7 @@
 import React from "react";
 
 import { GoBook } from "react-icons/go";
-import { Line, Circle } from "rc-progress";
+import { Line } from "rc-progress";
 
 const Resume = () => {
   return (

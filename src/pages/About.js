@@ -55,7 +55,12 @@ const About = () => {
                     Dhaka, Bangladesh
                   </li>
                 </ul>
-                <a href="assets/media/empty.html" className="mi-button">
+                <a
+                  href="../pdf/jahidul_islam.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mi-button"
+                >
                   Download CV
                 </a>
               </div>
@@ -140,7 +145,8 @@ const About = () => {
                   </span>
                   <h5>eCommerce</h5>
                   <p>
-                    Integration of eCommerce platforms, payment gateways, and more using woocommerce.
+                    Integration of eCommerce platforms, payment gateways, and
+                    more using woocommerce.
                   </p>
                 </div>
               </div>

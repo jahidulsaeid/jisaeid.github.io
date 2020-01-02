@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
-                {/* <h6>Get In Touch</h6> */}
+                
 
                 <NetlifyForm name="contact" method="post">
                   {({ loading, error, success }) => (
