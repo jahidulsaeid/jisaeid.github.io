@@ -69,7 +69,7 @@ const Home = () => {
                 <span className="color-theme">Jahidul Islam (Saeid)</span>
               </h1>
               <p>
-                I am a frontend web developer. I can provide clean code and
+                I am a Web Designer and Developer . I can provide clean code and
                 pixel perfect design. I also make website more &amp; more
                 interactive with web animations.
               </p>

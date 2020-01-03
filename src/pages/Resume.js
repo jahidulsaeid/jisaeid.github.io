@@ -78,7 +78,37 @@ const Resume = () => {
 
               <div className="col-lg-6 col-12 mt-30">
                 <div className="mi-progress">
-                  <h6 className="mi-progress-title">Wordpress</h6>
+                  <h6 className="mi-progress-title">MongoDB</h6>
+                  <div className="mi-progress-inner">
+                    <div className="mi-progress-percentage">65%</div>
+                    <div className="mi-progress-container">
+                      <Line
+                        percent="65"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-30">
+                <div className="mi-progress">
+                  <h6 className="mi-progress-title">Express.js</h6>
+                  <div className="mi-progress-inner">
+                    <div className="mi-progress-percentage">70%</div>
+                    <div className="mi-progress-container">
+                      <Line
+                        percent="70"
+                        strokeWidth="1"
+                        strokeColor="#007bff"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-12 mt-30">
+                <div className="mi-progress">
+                  <h6 className="mi-progress-title">PHP</h6>
                   <div className="mi-progress-inner">
                     <div className="mi-progress-percentage">85%</div>
                     <div className="mi-progress-container">
@@ -93,12 +123,12 @@ const Resume = () => {
               </div>
               <div className="col-lg-6 col-12 mt-30">
                 <div className="mi-progress">
-                  <h6 className="mi-progress-title">Photoshop</h6>
+                  <h6 className="mi-progress-title">Wordpress</h6>
                   <div className="mi-progress-inner">
-                    <div className="mi-progress-percentage">65%</div>
+                    <div className="mi-progress-percentage">85%</div>
                     <div className="mi-progress-container">
                       <Line
-                        percent="65"
+                        percent="85"
                         strokeWidth="1"
                         strokeColor="#007bff"
                       />
@@ -106,6 +136,7 @@ const Resume = () => {
                   </div>
                 </div>
               </div>
+       
             </div>
           </div>
         </div>
