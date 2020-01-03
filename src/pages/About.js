@@ -33,9 +33,11 @@ const About = () => {
                   <span className="color-theme">Jahidul Islam (Saeid)</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more &amp; more
-                  interactive with web animations.
+                  An explorer. Love to learn new technologies. Interested in
+                  problem solving, building new things and making my life easier
+                  with bits of code and automation. Always excited to learn from
+                  failures, I believe myself to be competent and adaptable to
+                  new situations.
                 </p>
                 <ul>
                   <li>
