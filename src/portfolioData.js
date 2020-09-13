@@ -8,6 +8,22 @@ export const portfolioData = [
     description: "Community website for only Bangladesh University. Users can post, comment, like. There are also have a notice board and live chat"
   },
   {
+    id: 4,
+    name: "Youtube videos search by react",
+    img: "./img/portfolio5.png",
+    demourl: "https://jahidulsaeid.github.io/yt-videos-search-react",
+    githuburl: "https://github.com/jahidulsaeid/yt-videos-search-react",
+    description: "Youtube video search using youtube api and render video player without loading"
+  },
+  {
+    id: 4,
+    name: "Image search",
+    img: "./img/portfolio6.png",
+    demourl: "https://jahidulsaeid.github.io/react-pics",
+    githuburl: "https://github.com/jahidulsaeid/react-pics",
+    description: "Image search using Unsplash-API and image organized by their height"
+  },
+  {
     id: 2,
     name: "Developer Community",
     img: "./img/portfolio2.png",
