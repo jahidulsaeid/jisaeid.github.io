@@ -69,7 +69,7 @@ class SideMenu extends Component {
                   </Link>
                 </li>
               </ul>
-              <p className="mi-header-copyright">© 2019 JAHIDUL ISLAM</p>
+              <p className="mi-header-copyright">© 2020 JAHIDUL ISLAM</p>
             </div>
           </nav>
         </>

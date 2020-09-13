@@ -686,6 +686,30 @@ input[type="radio"]:checked ~ label::before {
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
+.mi-buttonPortfolio {
+  position: relative;
+  padding: 0 30px;
+  background: #040e27;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  height: 50px;
+  line-height: 50px;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.mi-buttonPortfolio:hover {
+  color: #fff;
+}
+ul.portfolio1 {
+  color: #fff;
+}
+
 .mi-button::before {
   content: "";
   position: absolute;
@@ -1347,11 +1371,11 @@ input[type="radio"]:checked ~ label::before {
 .mi-portfolio-image::before {
   content: "";
   position: absolute;
-  left: 15px;
-  top: 15px;
-  height: calc(100% - 30px);
-  width: calc(100% - 30px);
-  background: rgba(255, 255, 255, 0.9);
+  left: 0px;
+  top: 0px;
+  height: calc(100% - 0px);
+  width: calc(100% - 0px);
+  background: #0181f5;
   -webkit-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;

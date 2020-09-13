@@ -8,7 +8,7 @@ export const portfolioData = [
     description: "Community website for only Bangladesh University. Users can post, comment, like. There are also have a notice board and live chat"
   },
   {
-    id: 4,
+    id: 2,
     name: "Youtube videos search by react",
     img: "./img/portfolio5.png",
     demourl: "https://jahidulsaeid.github.io/yt-videos-search-react",
@@ -16,7 +16,7 @@ export const portfolioData = [
     description: "Youtube video search using youtube api and render video player without loading"
   },
   {
-    id: 4,
+    id: 3,
     name: "Image search",
     img: "./img/portfolio6.png",
     demourl: "https://jahidulsaeid.github.io/react-pics",
@@ -24,7 +24,7 @@ export const portfolioData = [
     description: "Image search using Unsplash-API and image organized by their height"
   },
   {
-    id: 2,
+    id: 4,
     name: "Developer Community",
     img: "./img/portfolio2.png",
     demourl: "https://developer-connect-network.herokuapp.com",
@@ -32,7 +32,7 @@ export const portfolioData = [
     description: "A small social network for developer. Here we can create our own profile and we can add experience, education. we can create post and like, comment. also, We can see user latest github repository and add their social media link"
   },
   {
-    id: 3,
+    id: 5,
     name: "Contact Manager",
     img: "./img/portfolio3.png",
     demourl: "https://react-contactmanager.herokuapp.com",
@@ -40,7 +40,7 @@ export const portfolioData = [
     description: "Show Developer’s with related keywords, view their repositories Check whether developer’s is hireable or not View Developer’s profile"
   },
   {
-    id: 4,
+    id: 6,
     name: "React Github Finder",
     img: "./img/portfolio4.png",
     demourl: "https://guser-finder.netlify.com",
