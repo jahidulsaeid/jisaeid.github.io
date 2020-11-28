@@ -75,27 +75,27 @@ const Home = () => {
               </p>
               <ul className="mi-socialicons mi-socialicons-bordered">
                 <li>
-                  <a href="https://www.facebook.com/jisaeid" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiFacebook />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.twitter.com/jisaeid" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.twitter.com/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiTwitter />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.github.com/jisaeid" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.github.com/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiGithub />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/jisaeid" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiLinkedin />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/ji_saeid" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiInstagram />
                   </a>
                 </li>
