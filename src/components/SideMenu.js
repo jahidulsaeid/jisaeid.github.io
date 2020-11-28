@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import menuimage from "../images/menuimage.jpg";
-import { Link } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
 
 class SideMenu extends Component {
@@ -43,30 +43,30 @@ class SideMenu extends Component {
               </div>
               <ul className="mi-header-menu">
                 <li>
-                  <Link to="/">
-                    <span>Home</span>
-                  </Link>
+                  <NavLink to="/" exact activeClassName="mi-header-menu-active">
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/about">
-                    <span>About</span>
-                  </Link>
+                <NavLink to="/about" exact activeClassName="mi-header-menu-active">
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/resume">
+                  <NavLink to="/resume" exact activeClassName="mi-header-menu-active">
                     <span>Resume</span>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/portfolio">
+                  <NavLink to="/portfolio" exact activeClassName="mi-header-menu-active">
                     <span>Portfolio</span>
-                  </Link>
+                  </NavLink>
                 </li>
           
                 <li>
-                  <Link to="/contact">
+                  <NavLink to="/contact" exact activeClassName="mi-header-menu-active">
                     <span>Contact</span>
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
               <p className="mi-header-copyright">© 2020 JAHIDUL ISLAM</p>
