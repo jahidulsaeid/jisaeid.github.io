@@ -39,6 +39,7 @@ const Contact = () => {
                               type="text"
                               name="name"
                               id="contact-form-name"
+                              required
                             />
                           </div>
                           <div className="mi-form-field">
@@ -49,6 +50,7 @@ const Contact = () => {
                               type="text"
                               name="email"
                               id="contact-form-email"
+                              required
                             />
                           </div>
                           <div className="mi-form-field">
@@ -59,6 +61,7 @@ const Contact = () => {
                               type="text"
                               name="subject"
                               id="contact-form-subject"
+                              required
                             />
                           </div>
                           <div className="mi-form-field">
@@ -70,6 +73,7 @@ const Contact = () => {
                               id="contact-form-message"
                               cols={30}
                               rows={3}
+                              required
                             />
                           </div>
 
