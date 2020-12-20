@@ -3,7 +3,7 @@ import React from "react";
 import "./css/Plugin.css";
 import "./App.css";
 import Home from "./pages/Home.js";
-import { Switch,Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import About from "./pages/About";
 import SideMenu from "./components/SideMenu";
 import Contact from "./pages/Contact";
@@ -16,15 +16,15 @@ function App() {
     <div className="mi-wrapper">
       <SideMenu />
       <main className="mi-pagecontent">
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route>
-          <NotFound />
-        </Route>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route>
+            <NotFound />
+          </Route>
         </Switch>
       </main>
     </div>
