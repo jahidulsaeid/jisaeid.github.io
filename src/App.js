@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
+          <Route exact path="/blogs" component={Blog} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route>
             <NotFound />

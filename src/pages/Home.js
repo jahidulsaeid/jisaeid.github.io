@@ -1,6 +1,9 @@
 import React from "react";
+import { AiOutlineMedium } from "react-icons/ai";
 
-import { FiFacebook, FiTwitter, FiGithub, FiLinkedin, FiInstagram} from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiGithub, FiLinkedin} from "react-icons/fi";
+
+// import { FiInstagram} from "react-icons/fi";
 // import Particles from 'react-particles-js';
 
 
@@ -94,9 +97,14 @@ const Home = () => {
                     <FiLinkedin />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.instagram.com/jahidulsaeid" target="_blank" rel="noopener noreferrer">
                     <FiInstagram />
+                  </a>
+                </li> */}
+                <li>
+                  <a href="https://jahidulsaeid.medium.com" target="_blank" rel="noopener noreferrer">
+                    <AiOutlineMedium />
                   </a>
                 </li>
               </ul>

@@ -73,6 +73,15 @@ class SideMenu extends Component {
                   <span>Portfolio</span>
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/blogs"
+                  exact
+                  activeClassName="mi-header-menu-active"
+                >
+                  <span>Blogs</span>
+                </NavLink>
+              </li>
 
               <li>
                 <NavLink
