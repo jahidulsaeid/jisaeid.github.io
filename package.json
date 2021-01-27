@@ -12,6 +12,7 @@
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
     "react-image-lightbox": "^5.1.1",
+    "react-messenger-customer-chat": "^0.8.0",
     "react-netlify-form": "^2.1.5",
     "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.1.2",
