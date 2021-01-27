@@ -1,5 +1,4 @@
 import React from "react";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 import "./css/Plugin.css";
 import "./App.css";
@@ -16,10 +15,6 @@ import Blog from "./pages/Blog";
 function App() {
   return (
     <div className="mi-wrapper">
-      <MessengerCustomerChat
-        pageId="1910516492577179"
-        appId="341293513604132"
-      />
       <SideMenu />
       <main className="mi-pagecontent">
         <Switch>
