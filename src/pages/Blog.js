@@ -18,14 +18,14 @@ const Blog = () => {
                 <div className="mi-blog-image">
                   <a href="/blogs/blog-details/1/markdown-html-supported-blog">
                     <img
-                      src="https://tf-react-chester.now.sh/images/blog-image-1.jpg"
+                      src="https://user-images.githubusercontent.com/33094067/107173334-c51d5200-69f1-11eb-96c2-877c88b2d6f5.png"
                       alt="Markdown & Html supported blog."
                     />
                   </a>
 
                   <div className="mi-blog-date">
-                    <span className="date">12</span>
-                    <span className="month">Feb 2020</span>
+                    <span className="date">8</span>
+                    <span className="month">Feb 2021</span>
                     {/* <span className="month">2020</span> */}
                   </div>
                 </div>
