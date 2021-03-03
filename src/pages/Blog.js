@@ -24,7 +24,7 @@ const Blog = () => {
                   </a>
 
                   <div className="mi-blog-date">
-                    <span className="date">8</span>
+                    <span className="date">7</span>
                     <span className="month">Feb 2021</span>
                     {/* <span className="month">2020</span> */}
                   </div>
