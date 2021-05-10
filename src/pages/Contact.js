@@ -116,8 +116,8 @@ const Contact = () => {
                   <div className="mi-contact-infoblock-content">
                     <h6>Email</h6>
                     <p>
-                      <a href="mailto:jahidul.saeid@gmail.com">
-                        jahidul.saeid@gmail.com
+                      <a href="mailto:contact@jahidulsaeid.com">
+                        contact@jahidulsaeid.com
                       </a>
                     </p>
                   </div>
