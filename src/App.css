@@ -245,7 +245,7 @@ h3 {
   }
 }
 h4 {
-  font-size: 1.71rem;
+  font-size: 1.3rem;
   line-height: 2.43rem;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1614,20 +1614,20 @@ ul.portfolio1 {
 .mi-blog-meta span a:hover {
   color: #037ffd;
 }
-.mi-blog-content h5 {
+.mi-blog-content h4 {
   white-space: nowrap;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.mi-blog-content > h5 a {
+.mi-blog-content > h4 a {
   color: #fff !important;
   font-weight: 600;
   -webkit-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
-.mi-blog-content h5 a:hover {
+.mi-blog-content h4 a:hover {
   color: #037ffd;
 }
 .mi-blog-content ul {

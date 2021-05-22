@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-export class PortfolioItem extends Component {
+class PortfolioItem extends Component {
   render() {
     const { name, img, demourl, description } = this.props.portfolio;
 
@@ -11,10 +11,8 @@ export class PortfolioItem extends Component {
           <div className="mi-portfolio-image">
             <img src={img} alt={name} />
             <ul className="portfolio1">
-        
                 <a href={demourl} target="_blank" rel="noopener noreferrer" className="mi-buttonPortfolio">Live Demo</a>
             </ul>
-            
           </div>
           <h5>{name}</h5>
 		<p>{description}</p>
