@@ -73,7 +73,7 @@ class SideMenu extends Component {
                   <span>Portfolio</span>
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/blogs"
                   exact
@@ -81,7 +81,7 @@ class SideMenu extends Component {
                 >
                   <span>Blogs</span>
                 </NavLink>
-              </li>
+              </li> */}
 
               <li>
                 <NavLink
@@ -93,7 +93,7 @@ class SideMenu extends Component {
                 </NavLink>
               </li>
             </ul>
-            <p className="mi-header-copyright">© 2020 JAHIDUL ISLAM</p>
+            <p className="mi-header-copyright">&copy; {new Date().getFullYear()} JAHIDUL ISLAM</p>
           </div>
         </nav>
       </div>
